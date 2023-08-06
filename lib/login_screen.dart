@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
-
   @override
   _LoginScreenState createState() => _LoginScreenState();
 }
@@ -13,23 +11,23 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 24.0),
+        padding: EdgeInsets.symmetric(horizontal: 24.0),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
-            SizedBox(
+            Container(
               height: 200.0,
               child: Image.asset('images/logo.png'),
             ),
-            const SizedBox(
+            SizedBox(
               height: 28.0,
             ),
             TextField(
               onChanged: (value) {
                 //Do something with the user input.
               },
-              decoration: const InputDecoration(
+              decoration: InputDecoration(
                 hintText: 'Enter your email',
                 contentPadding:
                 EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
@@ -48,15 +46,15 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
             ),
-            const SizedBox(
+            SizedBox(
               height: 8.0,
             ),
             TextField(
               onChanged: (value) {
                 //Do something with the user input.
               },
-              decoration: const InputDecoration(
-                hintText: 'Enter your password.',
+              decoration: InputDecoration(
+                hintText: 'Enter your password. ',
                 contentPadding:
                 EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                 border: OutlineInputBorder(
@@ -74,7 +72,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
             ),
-            const SizedBox(
+            SizedBox(
               height: 24.0,
             ),
             Padding(
@@ -89,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   },
                   minWidth: 200.0,
                   height: 42.0,
-                  child: const Text(
+                  child: Text(
                     'Log In',
                   ),
                 ),
