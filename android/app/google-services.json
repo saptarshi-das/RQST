@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "165963652464",
+    "project_id": "rqst-99",
+    "storage_bucket": "rqst-99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165963652464:android:52031e1c2b0b16fd5d43b5",
+        "android_client_info": {
+          "package_name": "com.example.rqst"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeAncvQ833HAPxgwrp9bbeDz7CUbw50XI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
